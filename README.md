@@ -1,6 +1,8 @@
 # garbled_circuit
 
-How to run?
+I implemented Yao’s protocol for two parties with AES using the [GitHub repository](https://github.com/ojroques/garbled-circuit) provided for the task, and a circuit I designed to add values. The program is mainly about two parties, Alice and Bob, who want to execute a function without disclosing any private information (which is usually their input, that can be a lot of things, basically anything sensitive, for example: their salary). Consequently, in an ideal secure multi-party computation scenario, the parties will not get to know each other’s inputs, however, each of them will learn the result of the function executed (based on their inputs) in the end. In my implementation, Alice is the garbler, the party who creates the circuit and sends it to Bob, while Bob is the evaluator, the party who evaluates the circuit and sends the results back to Alice. 
+
+# How to run?
 
 1. Clone this repository
 
