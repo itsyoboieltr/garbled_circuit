@@ -32,6 +32,8 @@ python main.py bob
 python main.py verify
 ```
 
+All the output, such as the data sent between the parties and the individuals results for the parties are saved to the output folder in .json format.
+
 If you want to change the input to the function, you have to change the constants 'ALICE_INPUT' and 'BOB_INPUT' in main.py lines 5-6.
 
 Make sure that the sum of each input array is 15 or less, because the implementation uses a 4 bit adder, which will not give accurate results on integers higher than 4 bits.
