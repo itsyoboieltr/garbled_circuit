@@ -32,7 +32,7 @@ python main.py bob
 python main.py verify
 ```
 
-All the output, such as the data sent between the parties and the individuals results for the parties are saved to the output folder in .json format.
+All the output, such as the data sent between the parties and the individual results for the parties are saved to the output folder in .json format.
 
 If you want to change the input to the function, you have to change the constants 'ALICE_INPUT' and 'BOB_INPUT' in main.py lines 5-6.
 
