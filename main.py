@@ -135,7 +135,7 @@ class Bob:
         Args:
             entry: A dict representing the circuit to evaluate.
         '''
-        # print the function on the combiend data
+        # print the function on the combined data
         with open('output/Function_on_combined_data.json', 'w', encoding='utf-8') as f:
                 json.dump(entry['circuit'], f, ensure_ascii=False, indent=4)
         circuit, pbits_out = entry['circuit'], entry['pbits_out']
