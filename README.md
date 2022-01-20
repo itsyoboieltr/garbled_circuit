@@ -17,19 +17,19 @@ pip3 install --user pyzmq cryptography sympy
 4. First terminal window will be the garbler, that creates the circuit and sends it to the evaluator:
 
 ```
-python main.py alice
+python3 main.py alice
 ```
 
 5. Second terminal window will be the evaluator, that evaluates the circuit and sends the results back to the garbler:
 
 ```
-python main.py bob
+python3 main.py bob
 ```
 
 6. After it finished, verify the results in a non-MPC way, to make sure it is correct
 
 ```
-python main.py verify
+python3 main.py verify
 ```
 
 All the output, such as the data sent between the parties and the individual results for the parties are saved to the output folder in .json format.
