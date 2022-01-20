@@ -4,7 +4,7 @@ How to run?
 
 1. Clone this repository
 
-2. Install dependencies - pip3 install --user pyzmq cryptography sympy
+2. Install dependencies: pip3 install --user pyzmq cryptography sympy
 
 3. Open two terminal windows in the root folder of the repository
 
