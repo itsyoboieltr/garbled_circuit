@@ -6,7 +6,7 @@ I implemented Yao’s protocol for two parties with AES using the [GitHub reposi
 
 1. Clone this repository
 
-2. Install dependencies: 
+2. Install dependencies (the code was written and tested on Python 3.10.0): 
 
 ```
 pip3 install --user pyzmq cryptography sympy
